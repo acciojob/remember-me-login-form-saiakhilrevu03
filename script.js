@@ -30,8 +30,8 @@ form.addEventListener("submit",function(e){
 		existingBtn.style.display="block";
 	}
     else{
-		localStorage.remove("username");
-		localStorage.remove("password");
+		localStorage.removeItem("username");
+		localStorage.removeItem("password");
 		existingBtn.style.display="none";
 	}
 
