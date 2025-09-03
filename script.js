@@ -39,7 +39,7 @@ form.addEventListener("submit",function(e){
 existingBtn.addEventListener("click",function(){
 	const storedUser = localStorage.getItem("username");
 	if(storedUser){
-		alert("Logged in as "+storedUser);
+		alert("logged in as "+storedUser);
 	}
 })
 
