@@ -20,7 +20,7 @@ form.addEventListener("submit",function(e){
 
 	if(!username || !password) return;
 
-	alert("logged in as "+username);
+	alert("Logged in as "+username);
 
 	
 	
@@ -39,7 +39,7 @@ form.addEventListener("submit",function(e){
 existingBtn.addEventListener("click",function(){
 	const storedUser = localStorage.getItem("username");
 	if(storedUser){
-		alert("logged in as "+storedUser);
+		alert("Logged in as "+storedUser);
 	}
 })
 
